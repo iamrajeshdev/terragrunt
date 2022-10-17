@@ -1,0 +1,12 @@
+product: Hackathon-TU-Elektra
+
+modules:
+  vpc:
+    git_source: git::git@github.com:iamrajeshdev/infra.git//vpc
+    git_version: v1.0.5
+  s3:
+    git_source: git::git@github.com:iamrajeshdev/infra.git//s3
+    git_version: v1.0.5
+  ec2:
+    git_source: git::git@github.com:iamrajeshdev/infra.git//ec2
+    git_version: v1.0.5
